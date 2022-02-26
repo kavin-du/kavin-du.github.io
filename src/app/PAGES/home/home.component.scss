@@ -1,0 +1,29 @@
+.body {
+    background-color: #e7f7fb;
+    height: 100%;
+    display: flex;
+
+    .left-pane {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .title {
+            font-size: 80px;
+            line-height: 60pt;
+        }
+
+    }
+
+    .right-pane {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+}
