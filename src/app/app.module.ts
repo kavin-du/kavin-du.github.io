@@ -3,23 +3,30 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './COMPONENTS/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import { HomeComponent } from './PAGES/home/home.component'; 
+import { MatToolbarModule } from '@angular/material/toolbar';
+
+import { HeaderComponent } from './COMPONENTS/header/header.component';
+import { HomeComponent } from './PAGES/home/home.component';
+import { HeaderButtonComponent } from './COMPONENTS/header-button/header-button.component';
+import { ProjectsComponent } from './PAGES/projects/projects.component';
+import { ContactComponent } from './PAGES/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    
+    HeaderButtonComponent,
+    ProjectsComponent,
+    ContactComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
