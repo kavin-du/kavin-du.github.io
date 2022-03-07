@@ -4,17 +4,20 @@
   border-radius: 11px;
   padding: 5px 15px; // tb, lr
   margin: 0 5px;
-  // background-color: var(--primary-color);
-
-  &:hover {
-    color: var(--primary-color);
-    cursor: pointer;
-  }
 
   .icon {
     padding-right: 10px;
     width: 23px;
     height: 23px;
-
   }
+
+  &:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+  }
+}
+
+div.active {
+  color: var(--primary-color);
+  // background-color: var(--primary-color);
 }

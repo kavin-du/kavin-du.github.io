@@ -10,7 +10,7 @@ export class HeaderButtonComponent implements OnInit {
   @Input() icon: string = '';
   @Input() name: string = '';
   @Input() route: string = '';
-
+  routeExact: boolean = this.route === '' ? true : false;
   constructor() { }
 
   ngOnInit(): void {
