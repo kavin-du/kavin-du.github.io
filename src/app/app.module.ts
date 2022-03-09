@@ -11,6 +11,7 @@ import { HomeComponent } from './PAGES/home/home.component';
 import { HeaderButtonComponent } from './COMPONENTS/header-button/header-button.component';
 import { ProjectsComponent } from './PAGES/projects/projects.component';
 import { ContactComponent } from './PAGES/contact/contact.component';
+import { FooterComponent } from './COMPONENTS/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ContactComponent } from './PAGES/contact/contact.component';
     HeaderButtonComponent,
     ProjectsComponent,
     ContactComponent,
+    FooterComponent,
 
   ],
   imports: [
