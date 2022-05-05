@@ -12,6 +12,7 @@ import { HeaderButtonComponent } from './COMPONENTS/header-button/header-button.
 import { ProjectsComponent } from './PAGES/projects/projects.component';
 import { ContactComponent } from './PAGES/contact/contact.component';
 import { FooterComponent } from './COMPONENTS/footer/footer.component';
+import { TechtileComponent } from './COMPONENTS/techtile/techtile.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { FooterComponent } from './COMPONENTS/footer/footer.component';
     ProjectsComponent,
     ContactComponent,
     FooterComponent,
+    TechtileComponent,
 
   ],
   imports: [

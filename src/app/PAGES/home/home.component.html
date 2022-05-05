@@ -1,9 +1,20 @@
 <div class="body">
-  <div class="left-pane">
-    <span class="title">Hi! I'm <br /><span class="title-name">Kavindu</span></span>
-    <p class="description">A Computer Engineering undergraduate at Faculty of Engineering, University of Peradeniya. A person who has a lot of interest in Computer related stuff. You can find the details of work I did in here.  </p>
+  <div class="top">
+    <div class="left-pane">
+      <span class="title">Hi! I'm <br /><span class="title-name">Kavindu</span></span>
+      <p class="description">A Computer Engineering undergraduate at Faculty of Engineering, University of Peradeniya. A person who has a lot of interest in Computer related stuff. You can find the details of work I did in here.  </p>
+    </div>
+    <div class="right-pane">
+      <img src="assets/avatar2.png" />
+    </div>
   </div>
-  <div class="right-pane">
-    <img src="assets/avatar2.png" />
+
+  <div class="bottom">
+    <span>Technologies I Use</span>
+
+    <div class="techs">
+      <app-techtile *ngFor="let tech of techs" [logos]="tech.logos" [title]="tech.title"></app-techtile>
+
+    </div>
   </div>
 </div>

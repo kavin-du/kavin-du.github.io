@@ -1,11 +1,9 @@
 .container {
-  // background-color: #E7F7FB;
-  background-color: green;
-  height: 120px;
+  background-color: #E7F7FB;
+  height: 130px;
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
+  align-items: flex-end;
+  padding-bottom: 50px;
 }
