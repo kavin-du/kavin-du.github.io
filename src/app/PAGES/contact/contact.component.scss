@@ -1,0 +1,86 @@
+.top_pane {
+  background-color: #e7f7fb;
+  height: 15%;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 75px 0;
+  .profile-img {
+    width: 300px;
+    border-radius: 150px;
+    border: 2px solid black;
+  }
+
+  .name {
+    font-size: 65px;
+    font-weight: 600;
+    margin: 20px 0;
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    margin: 10px 0;
+
+    .icon {
+      width: 40px;
+      padding-right: 20px;
+    }
+    .text {
+      font-size: 28px;
+    }
+  }
+
+  .links {
+    display: grid;
+    place-items: center;
+    margin-top: 25px;
+
+    .title {
+      font-size: 30px;
+      font-weight: 300;
+      margin: 15px 0;
+    }
+    .icons {
+      background-color: #ddd;
+      display: flex;
+      
+      .link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px;
+
+        img {
+          width: 90px;
+          border-radius: 45px;
+        }
+        .name {
+          cursor: pointer;
+          font-size: 25px;
+          font-weight: 400;
+
+          color: inherit; // remove href styles
+          text-decoration: inherit; // remove href styles
+
+          background-image: linear-gradient(90deg, red, blue);
+          background-size: 0% 3px;
+          background-repeat: no-repeat;
+          background-position: left bottom;
+          transition: background-size 300ms ease;
+
+          &:hover {
+            background-size: 100% 3px;
+          }
+
+        }
+
+      }
+    }
+  }
+}
