@@ -6,8 +6,10 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./techtile.component.scss']
 })
 export class TechtileComponent implements OnInit {
-  @Input() title: string = '';
-  @Input() logos: string[] = [];
+  // @Input() title: string = '';
+  // @Input() logos: any[] = [];
+  // @Input() margin: number = 0;
+  @Input() passedValue: any = null;
 
   constructor() { }
 

@@ -12,61 +12,67 @@ export class HomeComponent implements OnInit {
   techs: any = [
     {
       title: 'Frameworks',
+      margin: 25,
       logos: [
-        'assets/techs/frameworks/flutter.png',
-        'assets/techs/frameworks/angular.png',
-        'assets/techs/frameworks/rn.png',
-        'assets/techs/frameworks/spring.png',
-        'assets/techs/frameworks/node.png',
+        {url: 'assets/techs/frameworks/flutter.png', size: 120},
+        {url: 'assets/techs/frameworks/angular.png', size: 80},
+        {url: 'assets/techs/frameworks/rn.png', size: 90},
+        {url: 'assets/techs/frameworks/spring.png', size: 90},
+        {url: 'assets/techs/frameworks/node.png', size: 130},
       ]
     },
     {
       title: 'Languages',
+      margin: 20,
       logos: [
-        'assets/techs/langs/c.png',
-        'assets/techs/langs/cpp.png',
-        'assets/techs/langs/dart.png',
-        'assets/techs/langs/java.png',
-        'assets/techs/langs/js.png',
-        'assets/techs/langs/py.png',
-        'assets/techs/langs/ts.png',
-        'assets/techs/langs/scala.png',
+        {url: 'assets/techs/langs/c.png', size: 65},
+        {url: 'assets/techs/langs/cpp.png', size: 80},
+        {url: 'assets/techs/langs/dart.png', size: 75},
+        {url: 'assets/techs/langs/java.png', size: 90},
+        {url: 'assets/techs/langs/js.png', size: 80},
+        {url: 'assets/techs/langs/py.png', size: 80},
+        {url: 'assets/techs/langs/ts.png', size: 80},
+        {url: 'assets/techs/langs/scala.png', size: 80},
       ]
     },
     {
       title: 'Tools',
+      margin: 20,
       logos: [
-        'assets/techs/tools/docker.png',
-        'assets/techs/tools/figma.png',
-        'assets/techs/tools/github.png',
-        'assets/techs/tools/intellij.png',
-        'assets/techs/tools/jira.png',
-        'assets/techs/tools/vscode.png',
-        'assets/techs/tools/xd.png',
+        {url: 'assets/techs/tools/docker.png', size: 80},
+        {url: 'assets/techs/tools/figma.png', size: 80},
+        {url: 'assets/techs/tools/github.png', size: 80},
+        {url: 'assets/techs/tools/intellij.png', size: 80},
+        {url: 'assets/techs/tools/jira.png', size: 80},
+        {url: 'assets/techs/tools/vscode.png', size: 80},
+        {url: 'assets/techs/tools/xd.png', size: 80},
       ]
     },
     {
       title: 'Databases',
+      margin: 25,
       logos: [
-        'assets/techs/db/mongo.png',
-        'assets/techs/db/mysql.png',
-        'assets/techs/db/postgre.png',
+        {url: 'assets/techs/db/mongo.png', size: 80},
+        {url: 'assets/techs/db/mysql.png', size: 80},
+        {url: 'assets/techs/db/postgre.png', size: 80},
       ]
     },
     {
       title: 'Operating Systems',
+      margin: 25,
       logos: [
-        'assets/techs/os/ubuntu.png',
-        'assets/techs/os/windows.png',
-        'assets/techs/os/fedora.png',
+        {url: 'assets/techs/os/ubuntu.png', size: 80},
+        {url: 'assets/techs/os/windows.png', size: 80},
+        {url: 'assets/techs/os/fedora.png', size: 80},
       ]
     },
     {
       title: 'Cloud',
+      margin: 25,
       logos: [
-        'assets/techs/cloud/aws.png',
-        'assets/techs/cloud/google.png',
-        'assets/techs/cloud/heroku.png',
+        {url: 'assets/techs/cloud/aws.png', size: 80},
+        {url: 'assets/techs/cloud/google.png', size: 80},
+        {url: 'assets/techs/cloud/heroku.png', size: 80},
       ]
     },
   ];

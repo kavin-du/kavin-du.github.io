@@ -13,7 +13,7 @@
     <span>Technologies I Use</span>
 
     <div class="techs">
-      <app-techtile *ngFor="let tech of techs" [logos]="tech.logos" [title]="tech.title"></app-techtile>
+      <app-techtile *ngFor="let tech of techs" [passedValue]="tech"></app-techtile>
 
     </div>
   </div>

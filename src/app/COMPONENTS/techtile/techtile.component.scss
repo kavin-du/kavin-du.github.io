@@ -2,13 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 
   .title {
     margin-bottom: 10px;
     font-size: 36px;
   }
   .body {
-
     background-color: #E7F7FB;
     border-radius: 30px;
 
@@ -16,10 +16,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 
     img {
-      width: 100px;
-      margin: 25px;
+      object-fit: contain;
     }
+
   }
 }

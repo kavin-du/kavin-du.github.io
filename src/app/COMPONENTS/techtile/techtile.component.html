@@ -1,10 +1,12 @@
 <div class="container">
-  <span class="title">{{ title }}</span>
+  <span class="title">{{ passedValue.title }}</span>
   <div class="body">
 
-    <div *ngFor="let logo of logos">
-      <img [src]="logo" alt="" />
-    </div>
+    <img *ngFor="let logo of passedValue.logos" 
+      [style.width.px]="logo.size" 
+      [style.margin.px]="passedValue.margin" 
+      [src]="logo.url" alt="" 
+    />
   </div>
 
 </div>
