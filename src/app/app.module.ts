@@ -5,13 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import {MatGridListModule} from '@angular/material/grid-list'; 
 
-import { HeaderComponent } from './COMPONENTS/header/header.component';
-import { HomeComponent } from './PAGES/home/home.component';
-import { HeaderButtonComponent } from './COMPONENTS/header-button/header-button.component';
-import { ProjectsComponent } from './PAGES/projects/projects.component';
 import { ContactComponent } from './PAGES/contact/contact.component';
 import { FooterComponent } from './COMPONENTS/footer/footer.component';
+import { HeaderButtonComponent } from './COMPONENTS/header-button/header-button.component';
+import { HeaderComponent } from './COMPONENTS/header/header.component';
+import { HomeComponent } from './PAGES/home/home.component';
+import { ProjectsComponent } from './PAGES/projects/projects.component';
 import { TechtileComponent } from './COMPONENTS/techtile/techtile.component';
 
 @NgModule({
@@ -31,6 +32,7 @@ import { TechtileComponent } from './COMPONENTS/techtile/techtile.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

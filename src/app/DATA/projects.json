@@ -1,0 +1,22 @@
+[
+  {
+    "title": "WaiterBot System",
+    "description": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
+    "image": "assets/projects/waiterbot.png"
+  },
+  {
+    "title": "Covid19 - Mask Detection",
+    "description": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
+    "image": "assets/projects/mask-detection.jpg"
+  },
+  {
+    "title": "MyStore Project",
+    "description": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
+    "image": "assets/projects/ecommerce.png"
+  },
+  {
+    "title": "Tourist System",
+    "description": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
+    "image": "assets/projects/tourist.jpg"
+  }
+]

@@ -1,1 +1,12 @@
-<p>projects works!</p>
+<div class="top-pane"></div>
+<div class="body">
+  <mat-grid-list cols="3" rowHeight="600px">
+    <mat-grid-tile *ngFor="let p of projectsData">
+      <div class="tile">
+        <img src={{p.image}} alt="">
+        <p class="title">{{ p.title }}</p>
+        <span class="description">{{ p.description }}</span>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
