@@ -1,22 +1,58 @@
 [
   {
+    "id": "1",
     "title": "WaiterBot System",
-    "description": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
-    "image": "assets/projects/waiterbot.png"
+    "intro": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
+    "thumbnail": "assets/projects/waiterbot.png",
+    "description": "Our solution is to replace the human waiter with a robot waiter and also to replace the traditional menu cards system with a more attractive and efficient order placing system. On an event where a customer visits the restaurant he/she can place the order via the order placing system and once the ordered items are ready, the items will be delivered to the customer. Our solution will help the customer to select the food items more efficiently with help of the reviews from previous customers and also if an item is unavailable that item will not be shown in the menu. The WaiterBot system will help the restaurant by providing an efficient delivery mechanism. WaiterBots will not mess up orders and they will deliver the food items to the correct table. Also this may be a new experience for the customers and the WaiterBot system will attract more customers to the restaurant.",
+    "images": [
+      {"path": "assets/projects/waiterbot/login.png"},
+      {"path": "assets/projects/waiterbot/additem.png"},
+      {"path": "assets/projects/waiterbot/menu.png"},
+      {"path": "assets/projects/waiterbot/orders.png"}
+    ],
+    "techs": [
+      {
+        "name": "Flutter",
+        "type": "Mobile",
+        "logo": "assets/techs/frameworks/flutter.png"
+      },
+      {
+        "name": "React",
+        "type": "Front-end",
+        "logo": "assets/techs/react.png"
+      },
+      {
+        "name": "NodeJs",
+        "type": "Back-end",
+        "logo": "assets/techs/nodejs.jpg"
+      }
+    ],
+    "contribution": "Develop the Mobile application using Flutter",
+    "link": "https://github.com/cepdnaclk/e16-3yp-waiterbot-system",
+    "members": [
+      { "name": "Kavindu Chamith", "image": "assets/profile-picture.jpeg"},
+      { "name": "Buddhi Perera", "image": "assets/members/buddhi.png"},
+      { "name": "Shirly Ekanayake", "image": "assets/members/shirly.png"}
+    ]
+    
   },
   {
+    "id": "2",
     "title": "Covid19 - Mask Detection",
-    "description": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
-    "image": "assets/projects/mask-detection.jpg"
+    "intro": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
+    "thumbnail": "assets/projects/mask-detection.jpg"
   },
   {
+    "id": "3",
     "title": "MyStore Project",
-    "description": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
-    "image": "assets/projects/ecommerce.png"
+    "intro": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
+    "thumbnail": "assets/projects/ecommerce.png"
   },
   {
+    "id": "4",
     "title": "Tourist System",
-    "description": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
-    "image": "assets/projects/tourist.jpg"
+    "intro": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
+    "thumbnail": "assets/projects/tourist.jpg"
   }
 ]

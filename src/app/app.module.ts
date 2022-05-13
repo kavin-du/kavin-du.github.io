@@ -14,6 +14,8 @@ import { HeaderComponent } from './COMPONENTS/header/header.component';
 import { HomeComponent } from './PAGES/home/home.component';
 import { ProjectsComponent } from './PAGES/projects/projects.component';
 import { TechtileComponent } from './COMPONENTS/techtile/techtile.component';
+import { SingleProjectComponent } from './PAGES/single-project/single-project.component';
+import { IvyCarouselModule } from 'angular-responsive-carousel';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,7 @@ import { TechtileComponent } from './COMPONENTS/techtile/techtile.component';
     ContactComponent,
     FooterComponent,
     TechtileComponent,
-
+    SingleProjectComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +35,7 @@ import { TechtileComponent } from './COMPONENTS/techtile/techtile.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatGridListModule,
+    IvyCarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

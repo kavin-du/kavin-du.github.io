@@ -1,0 +1,47 @@
+<div class="top-pane"></div>
+<div class="body">
+  <h1 class="title">{{ project.title }}</h1>
+  <span>(Group Project)</span>
+
+  <carousel 
+    [images]="project.images"
+    [width]="800" 
+    [height]="450" 
+    [arrows]="true" 
+    [cellsToShow]="1"
+    [loop]="true"
+    [dots]="true"
+    [pauseOnHover]="true"
+    [counter]="true"
+    [objectFit]="'contain'"
+    [autoplay]="true">
+  </carousel>
+
+  <p class="description">{{ project.description }}</p>
+
+  <span class="sub-heading">Technologies Used..</span>
+  
+
+  <div class="logos">
+    <div class="logo" *ngFor="let tech of project.techs">
+      <img src="{{ tech.logo }}" alt="">
+      <span>{{ tech.name }}</span>
+      <span>({{ tech.type }})</span>
+    </div>
+  </div>
+
+  <span>Contribution - {{ project.contribution }}</span>
+  <div class="link">
+    <img src="assets/link.png" alt="">
+    <a target="_blank" href="{{ project.link }}">{{ project.link }}</a>
+  </div>
+
+  <span class="sub-heading">Team Members</span>
+
+  <div class="logos">
+    <div class="logo" *ngFor="let member of project.members">
+      <img src="{{ member.image }}" alt="">
+      <span>{{ member.name }}</span>
+    </div>
+  </div>
+</div>
