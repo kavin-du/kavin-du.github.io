@@ -6,6 +6,9 @@
     "thumbnail": "assets/projects/waiterbot.png",
     "description": "Our solution is to replace the human waiter with a robot waiter and also to replace the traditional menu cards system with a more attractive and efficient order placing system. On an event where a customer visits the restaurant he/she can place the order via the order placing system and once the ordered items are ready, the items will be delivered to the customer. Our solution will help the customer to select the food items more efficiently with help of the reviews from previous customers and also if an item is unavailable that item will not be shown in the menu. The WaiterBot system will help the restaurant by providing an efficient delivery mechanism. WaiterBots will not mess up orders and they will deliver the food items to the correct table. Also this may be a new experience for the customers and the WaiterBot system will attract more customers to the restaurant.",
     "images": [
+      {"path": "assets/projects/waiterbot/mobile1.PNG"},
+      {"path": "assets/projects/waiterbot/mobile2.PNG"},
+      {"path": "assets/projects/waiterbot/mobile3.PNG"},
       {"path": "assets/projects/waiterbot/login.png"},
       {"path": "assets/projects/waiterbot/additem.png"},
       {"path": "assets/projects/waiterbot/menu.png"},
@@ -40,8 +43,32 @@
   {
     "id": "2",
     "title": "Covid19 - Mask Detection",
-    "intro": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
-    "thumbnail": "assets/projects/mask-detection.jpg"
+    "intro": "In this project, we are trying to identify the people wearing face masks, not wearing face masks and incorrectly wearing face masks in a live video feed.",
+    "thumbnail": "assets/projects/mask-detection.jpg",
+    "description": "To develop this project, I have basically used a Convolution Neural Network(CNN) model to identify the mask-wearing status of the people. If a person is not wearing a mask or incorrectly wearing a mask that will be marked in a red color rectangle and it will be labeled as \"NO MASK\" and if a person is correctly wearing a mask it will be marked in a green rectangle and will be labeled as \"MASK\". \n\nThe Face Mask Detection process contains three steps which are the i) Pre-processing step that organizes the images in the dataset for the next step, ii) Training step that trains the neural network model using the organized images in the categories of people with masks and people incorrectly wearing/without masks, iii) Detection step that identifies and detect whether the people are wearing or not wearing the masks using the trained neural network model. Our implementation can detect and identify the mask wearing status of two or more people in a video feed.",
+    "images": [
+      {"path": "assets/projects/mask-detection/mask1.png"},
+      {"path": "assets/projects/mask-detection/mask2.png"}
+    ],
+    "techs": [
+      {
+        "name": "OpenCV",
+        "logo": "assets/projects/mask-detection/techs/opencv.png"
+      },
+      {
+        "name": "Keras",
+        "logo": "assets/projects/mask-detection/techs/keras.jpg"
+      },
+      {
+        "name": "scikit learn",
+        "logo": "assets/projects/mask-detection/techs/sklearn.png"
+      }
+    ],
+    "contribution": "Develop the Mask detection system",
+    "link": "https://github.com/kavin-du/Covid19-Face-Mask-Detection",
+    "members": [
+      { "name": "Kavindu Chamith", "image": "assets/profile-picture.jpeg"}
+    ]
   },
   {
     "id": "3",

@@ -28,6 +28,7 @@
   .description {
     width: 500px;
     font-size: 20px;
+    white-space: pre-line;
   }
 
   .sub-heading {
@@ -48,6 +49,11 @@
         border-radius: 40px;
         object-fit: scale-down;
         margin-bottom: 12px;
+      }
+    }
+    .profile {
+      img {
+        object-fit: cover;
       }
     }
   }

@@ -26,7 +26,7 @@
     <div class="logo" *ngFor="let tech of project.techs">
       <img src="{{ tech.logo }}" alt="">
       <span>{{ tech.name }}</span>
-      <span>({{ tech.type }})</span>
+      <span *ngIf="tech.type">({{ tech.type }})</span>
     </div>
   </div>
 
@@ -39,7 +39,7 @@
   <span class="sub-heading">Team Members</span>
 
   <div class="logos">
-    <div class="logo" *ngFor="let member of project.members">
+    <div class="logo profile" *ngFor="let member of project.members">
       <img src="{{ member.image }}" alt="">
       <span>{{ member.name }}</span>
     </div>
