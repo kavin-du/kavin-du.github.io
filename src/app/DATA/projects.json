@@ -29,6 +29,11 @@
         "name": "NodeJs",
         "type": "Back-end",
         "logo": "assets/techs/nodejs.jpg"
+      },
+      {
+        "name": "MongoDB",
+        "type": "Database",
+        "logo": "assets/techs/db/mongo-rounded.svg"
       }
     ],
     "contribution": "Develop the Mobile application using Flutter",
@@ -72,8 +77,41 @@
   {
     "id": "3",
     "title": "MyStore Project",
-    "intro": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
-    "thumbnail": "assets/projects/ecommerce.png"
+    "intro": "An E-Commerce platform to easily buy and sell things. An effort made for making the buyers and sellers close to each other to reduce pyhsical interaction.",
+    "thumbnail": "assets/projects/ecommerce.png",
+    "description": "MyStore is a platform for a small or medium scale business for selling their products online.  This system provides the business organization the ability to manage their product inventory and visualize the product sales. Customers can use this platform for purchasing products online, managing and tracking  their purchases. \n\nThis project contains a web application and a backend API connected to a database. Business staff can use the features provided by the web application  for management of the business and selling products online. Customers can use the web application to buy products. ",
+    "images": [
+      {"path": "assets/projects/mystore/1.png"},
+      {"path": "assets/projects/mystore/2.png"},
+      {"path": "assets/projects/mystore/3.png"},
+      {"path": "assets/projects/mystore/4.png"}
+    ],
+    "techs": [
+      {
+        "name": "Angular",
+        "type": "Front-end",        
+        "logo": "assets/techs/frameworks/angular.png"
+        
+      },
+      {
+        "name": "NodeJs",
+        "type": "Back-end",
+        "logo": "assets/techs/nodejs.jpg"
+      },
+      {
+        "name": "MySQL",
+        "type": "Database",
+        "logo": "assets/techs/db/mysql-round.png"
+      }
+    ],
+    "contribution": "Develop the Web application using Angular",
+    "link": "https://github.com/cepdnaclk/e16-co328-mystore",
+    "members": [
+      { "name": "Kavindu Chamith", "image": "assets/profile-picture.jpeg"},
+      { "name": "Buddhi Perera", "image": "assets/members/buddhi.png"},
+      { "name": "Shirly Ekanayake", "image": "assets/members/shirly.png"}
+    ]
+  
   },
   {
     "id": "4",
@@ -104,6 +142,11 @@
         "name": "NestJs",
         "type": "Back-end",
         "logo": "assets/projects/tourist/nestjs.png"
+      },
+      {
+        "name": "MySQL",
+        "type": "Database",
+        "logo": "assets/techs/db/mysql-round.png"
       }
     ],
     "contribution": "Develop the Mobile application using Flutter",
