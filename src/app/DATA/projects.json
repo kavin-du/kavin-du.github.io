@@ -37,8 +37,7 @@
       { "name": "Kavindu Chamith", "image": "assets/profile-picture.jpeg"},
       { "name": "Buddhi Perera", "image": "assets/members/buddhi.png"},
       { "name": "Shirly Ekanayake", "image": "assets/members/shirly.png"}
-    ]
-    
+    ]    
   },
   {
     "id": "2",
@@ -79,7 +78,40 @@
   {
     "id": "4",
     "title": "Tourist System",
-    "intro": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
-    "thumbnail": "assets/projects/tourist.jpg"
+    "intro": "A tourist management system with various facilities for travelling across the country.",
+    "thumbnail": "assets/projects/tourist.jpg",
+    "description": "Tourists can travel across the country using the mobile application as a guide. It contains the most frequent and popular places travelled by the people. Users can view their tour history and favourite places and they can set destinations along with the time frame to keep a record of the future tours. \n\n Admins can add new places using the dashboard so users can add them to their wish list. Tracking the tour trends, viewing the reports and managing the users can be done via the admin dashboard.",
+    "images": [
+      {"path": "assets/projects/tourist/1.jpg"},
+      {"path": "assets/projects/tourist/2.jpg"},
+      {"path": "assets/projects/tourist/3.png"},
+      {"path": "assets/projects/tourist/4.png"},
+      {"path": "assets/projects/tourist/5.png"}
+    ],
+    "techs": [
+      {
+        "name": "Flutter",
+        "type": "Mobile",
+        "logo": "assets/techs/frameworks/flutter.png"
+      },
+      {
+        "name": "Vue.js",
+        "type": "Front-end",        
+        "logo": "assets/projects/tourist/vuejs.png"
+
+      },
+      {
+        "name": "NestJs",
+        "type": "Back-end",
+        "logo": "assets/projects/tourist/nestjs.png"
+      }
+    ],
+    "contribution": "Develop the Mobile application using Flutter",
+    "link": "Link for the repository is not publically available",
+    "members": [
+      { "name": "Kavindu Chamith", "image": "assets/profile-picture.jpeg"},
+      { "name": "Buddhi Perera", "image": "assets/members/buddhi.png"},
+      { "name": "Shirly Ekanayake", "image": "assets/members/shirly.png"}
+    ]
   }
 ]
