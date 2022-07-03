@@ -52,7 +52,8 @@
     "description": "To develop this project, I have basically used a Convolution Neural Network(CNN) model to identify the mask-wearing status of the people. If a person is not wearing a mask or incorrectly wearing a mask that will be marked in a red color rectangle and it will be labeled as \"NO MASK\" and if a person is correctly wearing a mask it will be marked in a green rectangle and will be labeled as \"MASK\". \n\nThe Face Mask Detection process contains three steps which are the i) Pre-processing step that organizes the images in the dataset for the next step, ii) Training step that trains the neural network model using the organized images in the categories of people with masks and people incorrectly wearing/without masks, iii) Detection step that identifies and detect whether the people are wearing or not wearing the masks using the trained neural network model. Our implementation can detect and identify the mask wearing status of two or more people in a video feed.",
     "images": [
       {"path": "assets/projects/mask-detection/mask1.png"},
-      {"path": "assets/projects/mask-detection/mask2.png"}
+      {"path": "assets/projects/mask-detection/mask2.png"},
+      {"path": "assets/projects/mask-detection/3.png"}
     ],
     "techs": [
       {
