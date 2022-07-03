@@ -16,9 +16,10 @@ export class HomeComponent implements OnInit {
       logos: [
         {url: 'assets/techs/frameworks/flutter.png', size: 120},
         {url: 'assets/techs/frameworks/angular.png', size: 80},
-        {url: 'assets/techs/frameworks/rn.png', size: 90},
+        {url: 'assets/techs/frameworks/rn.png', size: 100},
         {url: 'assets/techs/frameworks/spring.png', size: 90},
-        {url: 'assets/techs/frameworks/node.png', size: 130},
+        {url: 'assets/techs/frameworks/node.png', size: 120},
+        {url: 'assets/techs/frameworks/svelte.png', size: 80},
       ]
     },
     {
