@@ -1,5 +1,32 @@
 [
   {
+    "id": "5",
+    "title": "Using Computer Vision and Agent-Based Modelling to explore the Human-Elephant conflict",
+    "intro": "The aim of this project is to use AI based technologies to mitigate human-elephant conflicts by giving necessary recommendations.",
+    "thumbnail": "assets/projects/fyp.png",
+    "description": "The project initially requires a high-resolution dataset of aerial imagery and their respective masks. We have used LoveDA dataset for that. (https://github.com/Junjue-Wang/LoveDA)\n\nUsing the satellite images and their corresponding segmented masks (Classes of segmentation: forests, roads, water, human builds, cultivation lands, etc.) can train a semantic segmentation model with the use of Vision Transformers. We specifically used Swin Transformer to achieve this. These architecture models have recently approached or even surpassed the performance of ConvNets on computer vision approaches for classification and segmentation where datasets with millions of labeled samples are not available. Using the trained model's predictions, one can obtain a clearly masked image that can be used to identify elephant behaviors within different land boundaries. Then using Agent-Based Modelling with the features that are segmented in the masks can identify the elephant interactions in the human areas. Thereby it can predict the areas which could affect human-elephant conflicts.",
+    "images": [
+      {"path": "assets/projects/fyp/1.jpg"},
+      {"path": "assets/projects/fyp/2.jpg"},
+      {"path": "assets/projects/fyp/3.jpg"},
+      {"path": "assets/projects/fyp/4.jpg"}
+    ],
+    "techs": [
+      {
+        "name": "Pytorch",
+        "type": "",
+        "logo": "assets/techs/ml/pytorch.png"
+      }
+    ],
+    "contribution": "Train the Swin Transformer model to segment the satellite imagery dataset",
+    "link": "https://github.com/cepdnaclk/e16-4yp-Using-Computer-Vision-and-Agent-Based-Modelling-to-Explore-the-Human-Elephant-Conflict",
+    "members": [
+      { "name": "Kavindu Chamith", "image": "assets/profile-picture.jpeg"},
+      { "name": "L.A.C Deshan", "image": "assets/members/deshan.jpeg"},
+      { "name": "Hans Thisanke", "image": "assets/members/hans.jpeg"}
+    ]    
+  },
+  {
     "id": "1",
     "title": "WaiterBot System",
     "intro": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
@@ -58,15 +85,15 @@
     "techs": [
       {
         "name": "OpenCV",
-        "logo": "assets/projects/mask-detection/techs/opencv.png"
+        "logo": "assets/techs/ml/opencv.png"
       },
       {
         "name": "Keras",
-        "logo": "assets/projects/mask-detection/techs/keras.jpg"
+        "logo": "assets/techs/ml/keras.jpg"
       },
       {
         "name": "scikit learn",
-        "logo": "assets/projects/mask-detection/techs/sklearn.png"
+        "logo": "assets/techs/ml/sklearn.png"
       }
     ],
     "contribution": "Develop the Mask detection system",
