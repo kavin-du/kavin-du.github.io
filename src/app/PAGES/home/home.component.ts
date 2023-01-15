@@ -23,6 +23,16 @@ export class HomeComponent implements OnInit {
       ]
     },
     {
+      title: 'AI/ ML',
+      margin: 25,
+      logos: [
+        {url: 'assets/techs/ml/pytorch.png', size: 120},
+        {url: 'assets/techs/ml/keras.jpg', size: 80},
+        {url: 'assets/techs/ml/opencv.png', size: 75},
+        {url: 'assets/techs/ml/sklearn.png', size: 80}
+      ]
+    },
+    {
       title: 'Languages',
       margin: 20,
       logos: [
@@ -65,6 +75,7 @@ export class HomeComponent implements OnInit {
         {url: 'assets/techs/os/ubuntu.png', size: 80},
         {url: 'assets/techs/os/windows.png', size: 80},
         {url: 'assets/techs/os/fedora.png', size: 80},
+        {url: 'assets/techs/os/macos.png', size: 80}
       ]
     },
     {

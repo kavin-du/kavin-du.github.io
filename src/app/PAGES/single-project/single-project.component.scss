@@ -19,6 +19,7 @@
   .title {
     text-decoration: underline;
     margin: 10px;
+    text-align: center;
   }
 
   carousel {
@@ -62,6 +63,10 @@
     display: flex;
     align-items: center;
     margin: 10px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 700px;
+    white-space: nowrap;
     img {
       width: 27px;
       margin-right: 5px;
