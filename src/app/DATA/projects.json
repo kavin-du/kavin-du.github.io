@@ -1,25 +1,32 @@
 [
   {
     "id": "5",
-    "title": "Using Computer Vision and Agent-Based Modelling to explore the Human-Elephant conflict",
+    "title": "Computer Vision and Agent-Based Modeling for managing Human-Elephant conflict",
     "intro": "The aim of this project is to use AI based technologies to mitigate human-elephant conflicts by giving necessary recommendations.",
     "thumbnail": "assets/projects/fyp.png",
     "description": "The project initially requires a high-resolution dataset of aerial imagery and their respective masks. We have used LoveDA dataset for that. (https://github.com/Junjue-Wang/LoveDA)\n\nUsing the satellite images and their corresponding segmented masks (Classes of segmentation: forests, roads, water, human builds, cultivation lands, etc.) can train a semantic segmentation model with the use of Vision Transformers. We specifically used Swin Transformer to achieve this. These architecture models have recently approached or even surpassed the performance of ConvNets on computer vision approaches for classification and segmentation where datasets with millions of labeled samples are not available. Using the trained model's predictions, one can obtain a clearly masked image that can be used to identify elephant behaviors within different land boundaries. Then using Agent-Based Modelling with the features that are segmented in the masks can identify the elephant interactions in the human areas. Thereby it can predict the areas which could affect human-elephant conflicts.",
+    "type": "Undergraduate research project",
     "images": [
       {"path": "assets/projects/fyp/1.jpg"},
       {"path": "assets/projects/fyp/2.jpg"},
       {"path": "assets/projects/fyp/3.jpg"},
-      {"path": "assets/projects/fyp/4.jpg"}
+      {"path": "assets/projects/fyp/4.jpg"},
+      {"path": "assets/projects/fyp/5.png"}
     ],
     "techs": [
       {
         "name": "Pytorch",
         "type": "",
         "logo": "assets/techs/ml/pytorch.png"
+      },
+      {
+        "name": "Mesa-Geo",
+        "type": "",
+        "logo": "assets/techs/mesa.jpeg"
       }
     ],
-    "contribution": "Train the Swin Transformer model to segment the satellite imagery dataset",
-    "link": "https://github.com/cepdnaclk/e16-4yp-Using-Computer-Vision-and-Agent-Based-Modelling-to-Explore-the-Human-Elephant-Conflict",
+    "contribution": "Use different segmentation models such as UNet, Swin-Tiny and Swin-Base to segment the original satellite imagery dataset",
+    "link": "https://cepdnaclk.github.io/e16-4yp-Using-Computer-Vision-and-Agent-Based-Modelling-to-Explore-the-Human-Elephant-Conflict/",
     "members": [
       { "name": "Kavindu Chamith", "image": "assets/profile-picture.jpeg"},
       { "name": "L.A.C Deshan", "image": "assets/members/deshan.jpeg"},
@@ -32,6 +39,7 @@
     "intro": "The main idea of this project was to develop a system of robots and a smart ordering system for a restaurant. Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system.",
     "thumbnail": "assets/projects/waiterbot.png",
     "description": "Our solution is to replace the human waiter with a robot waiter and also to replace the traditional menu cards system with a more attractive and efficient order placing system. On an event where a customer visits the restaurant he/she can place the order via the order placing system and once the ordered items are ready, the items will be delivered to the customer. Our solution will help the customer to select the food items more efficiently with help of the reviews from previous customers and also if an item is unavailable that item will not be shown in the menu. The WaiterBot system will help the restaurant by providing an efficient delivery mechanism. WaiterBots will not mess up orders and they will deliver the food items to the correct table. Also this may be a new experience for the customers and the WaiterBot system will attract more customers to the restaurant.",
+    "type": "Group Project",
     "images": [
       {"path": "assets/projects/waiterbot/mobile1.PNG"},
       {"path": "assets/projects/waiterbot/mobile2.PNG"},
@@ -77,6 +85,7 @@
     "intro": "In this project, we are trying to identify the people wearing face masks, not wearing face masks and incorrectly wearing face masks in a live video feed.",
     "thumbnail": "assets/projects/mask-detection.jpg",
     "description": "To develop this project, I have basically used a Convolution Neural Network(CNN) model to identify the mask-wearing status of the people. If a person is not wearing a mask or incorrectly wearing a mask that will be marked in a red color rectangle and it will be labeled as \"NO MASK\" and if a person is correctly wearing a mask it will be marked in a green rectangle and will be labeled as \"MASK\". \n\nThe Face Mask Detection process contains three steps which are the i) Pre-processing step that organizes the images in the dataset for the next step, ii) Training step that trains the neural network model using the organized images in the categories of people with masks and people incorrectly wearing/without masks, iii) Detection step that identifies and detect whether the people are wearing or not wearing the masks using the trained neural network model. Our implementation can detect and identify the mask wearing status of two or more people in a video feed.",
+    "type": "Group Project",
     "images": [
       {"path": "assets/projects/mask-detection/mask1.png"},
       {"path": "assets/projects/mask-detection/mask2.png"},
@@ -108,6 +117,7 @@
     "intro": "An E-Commerce platform to easily buy and sell things. An effort made for making the buyers and sellers close to each other to reduce pyhsical interaction.",
     "thumbnail": "assets/projects/ecommerce.png",
     "description": "MyStore is a platform for a small or medium scale business for selling their products online.  This system provides the business organization the ability to manage their product inventory and visualize the product sales. Customers can use this platform for purchasing products online, managing and tracking  their purchases. \n\nThis project contains a web application and a backend API connected to a database. Business staff can use the features provided by the web application  for management of the business and selling products online. Customers can use the web application to buy products. ",
+    "type": "Group Project",
     "images": [
       {"path": "assets/projects/mystore/1.png"},
       {"path": "assets/projects/mystore/2.png"},
@@ -147,6 +157,7 @@
     "intro": "A tourist management system with various facilities for travelling across the country.",
     "thumbnail": "assets/projects/tourist.jpg",
     "description": "Tourists can travel across the country using the mobile application as a guide. It contains the most frequent and popular places travelled by the people. Users can view their tour history and favourite places and they can set destinations along with the time frame to keep a record of the future tours. \n\n Admins can add new places using the dashboard so users can add them to their wish list. Tracking the tour trends, viewing the reports and managing the users can be done via the admin dashboard.",
+    "type": "Group Project",
     "images": [
       {"path": "assets/projects/tourist/1.jpg"},
       {"path": "assets/projects/tourist/2.jpg"},

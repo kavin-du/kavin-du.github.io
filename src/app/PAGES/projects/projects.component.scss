@@ -9,12 +9,15 @@
   z-index: 1;
   margin: -50px 50px;
   border-radius: 30px;
+  padding: 0 150px;
 
   .tile {
     display: flex;
     flex-direction: column;
     width: 190px;
     cursor: pointer;
+    position: absolute;
+    top: 50px;
 
     .title {
       font-weight: bold;
