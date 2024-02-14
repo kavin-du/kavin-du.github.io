@@ -14,22 +14,13 @@ export class HomeComponent implements OnInit {
       title: 'Frameworks',
       margin: 25,
       logos: [
-        {url: 'assets/techs/frameworks/flutter.png', size: 120},
-        {url: 'assets/techs/frameworks/angular.png', size: 80},
-        {url: 'assets/techs/frameworks/rn.png', size: 100},
-        {url: 'assets/techs/frameworks/spring.png', size: 90},
-        {url: 'assets/techs/frameworks/node.png', size: 120},
-        {url: 'assets/techs/frameworks/svelte.png', size: 80},
-      ]
-    },
-    {
-      title: 'AI/ ML',
-      margin: 25,
-      logos: [
-        {url: 'assets/techs/ml/pytorch.png', size: 120},
-        {url: 'assets/techs/ml/keras.jpg', size: 80},
-        {url: 'assets/techs/ml/opencv.png', size: 75},
-        {url: 'assets/techs/ml/sklearn.png', size: 80}
+        {url: 'assets/techs/frameworks/flutter.png', size: 85},
+        {url: 'assets/techs/frameworks/react.png', size: 75},
+        {url: 'assets/techs/frameworks/angular.png', size: 70},
+        {url: 'assets/techs/frameworks/rn.png', size: 80},
+        {url: 'assets/techs/frameworks/spring.png', size: 75},
+        {url: 'assets/techs/frameworks/node.png', size: 80},
+        {url: 'assets/techs/frameworks/svelte.png', size: 60},
       ]
     },
     {
@@ -47,15 +38,23 @@ export class HomeComponent implements OnInit {
       ]
     },
     {
+      title: 'AI/ ML',
+      margin: 25,
+      logos: [
+        {url: 'assets/techs/ml/pytorch.png', size: 120},
+        {url: 'assets/techs/ml/keras.jpg', size: 80},
+        {url: 'assets/techs/ml/opencv.png', size: 75},
+        {url: 'assets/techs/ml/sklearn.png', size: 80}
+      ]
+    },
+    {
       title: 'Tools',
       margin: 20,
       logos: [
         {url: 'assets/techs/tools/docker.png', size: 80},
         {url: 'assets/techs/tools/figma.png', size: 80},
         {url: 'assets/techs/tools/github.png', size: 80},
-        {url: 'assets/techs/tools/intellij.png', size: 80},
         {url: 'assets/techs/tools/jira.png', size: 80},
-        {url: 'assets/techs/tools/vscode.png', size: 80},
         {url: 'assets/techs/tools/xd.png', size: 80},
       ]
     },
@@ -66,16 +65,6 @@ export class HomeComponent implements OnInit {
         {url: 'assets/techs/db/mongo.png', size: 80},
         {url: 'assets/techs/db/mysql.png', size: 80},
         {url: 'assets/techs/db/postgre.png', size: 80},
-      ]
-    },
-    {
-      title: 'Operating Systems',
-      margin: 25,
-      logos: [
-        {url: 'assets/techs/os/ubuntu.png', size: 80},
-        {url: 'assets/techs/os/windows.png', size: 80},
-        {url: 'assets/techs/os/fedora.png', size: 80},
-        {url: 'assets/techs/os/macos.png', size: 80}
       ]
     },
     {

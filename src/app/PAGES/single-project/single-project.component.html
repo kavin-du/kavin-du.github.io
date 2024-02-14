@@ -1,7 +1,7 @@
 <div class="top-pane"></div>
 <div class="body">
   <h1 class="title">{{ project.title }}</h1>
-  <span>(Group Project)</span>
+  <span>({{ project.type }})</span>
 
   <carousel 
     [images]="project.images"
@@ -30,7 +30,7 @@
     </div>
   </div>
 
-  <span>Contribution - {{ project.contribution }}</span>
+  <span class="contribution">Contribution - {{ project.contribution }}</span>
   <div class="link">
     <img src="assets/link.png" alt="">
     <a target="_blank" href="{{ project.link }}">{{ project.link }}</a>
