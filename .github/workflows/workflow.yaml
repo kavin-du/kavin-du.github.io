@@ -2,10 +2,7 @@ name: portfolio workflow
 on:
   push:
     branches:
-      - "master"
-  pull_request:
-    branches:
-      - "master"
+      - "dev"
 jobs:
   build:
     name: Build and Test
